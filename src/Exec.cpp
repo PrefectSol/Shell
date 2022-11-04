@@ -103,7 +103,6 @@ int Exec::ExecutePipe(ExecTree::cmdInfo *execInfo) {
 
             close(fd_temp);
         }
-
         else {
             if (pipe(fd) < 0) {
                 exit(1);
