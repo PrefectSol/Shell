@@ -49,6 +49,10 @@ int Exec::ExecutePipe(ExecTree::cmdInfo *execInfo) {
                 close(fd[1]);
             }
 
+            if (execInfo->background) {
+                AddZombie(pid);
+            }
+
             return cd(now->argc, now->argv);
         }
 
