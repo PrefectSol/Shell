@@ -1,6 +1,6 @@
 # Shell / Командный интерпретатор / OS Unix
 
-<h3>Operations (the priority is the same on one line)</h3>
+<h2>Operations (the priority is the same on one line)</h2>
 <p>
 |    >    >>    < </br>
 &&    ||</br>
@@ -8,7 +8,7 @@
 Parentheses () - changing the order of priorities 
 </p>
 
-<h3> Doc (RU)</h3>
+<h2> Doc (RU)</h2>
 <p>
 <strong>pr1 | …| prN</strong> – конвейер: стандартный вывод всех команд, кроме последней, направляется
 на стандартный ввод следующей команды конвейера. Каждая команда выполняется как
